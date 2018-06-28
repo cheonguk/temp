@@ -50,6 +50,7 @@ void Formatstr(char *str)
 }
 
 /*****************************************************************************
+ffffffffffffffffffffffffffffffffffffff
 *****************************************************************************/
 long GetWord(char *str, char *sword)
 {
@@ -194,9 +195,9 @@ long LoadBillCfg(char *sfilename,
     {
         if (sForm[i] == '#')
         {
-            if (lFieldFlag == 0)  /*ĞÂ×Ö¶Î¿ªÊ¼*/
+            if (lFieldFlag == 0)  /*æ–°å­—æ®µå¼€å§‹*/
             {
-                /*Ìø¹ıÑ­»·×Ö¶Î*/
+                /*è·³è¿‡å¾ªç¯å­—æ®µ*/
                 while (p->cfieldclass == 'L' && p->next != NULL)
                 {
                     lLoopBegin = atoi(p->arg1);
@@ -667,4 +668,4 @@ long GetBillsInfo(FILELIST** ppSFileList,
     return 0;
 }
 
-/********************************* ÎÄ¼ş½áÊø **********************************/
+/********************************* æ–‡ä»¶ç»“æŸ **********************************/
