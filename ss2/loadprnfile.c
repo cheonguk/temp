@@ -26,7 +26,7 @@ int ExitToAgent_ABC(char *ps);
 
 int ExitToAgent(char *ps){
 
-		return 0;
+		return 1;
 }
 
 int ExitToAgent_ABC(char *ps){
