@@ -59,6 +59,7 @@ long GetBillsInfo(FILELIST** ppSFileList,
 /*****************************************************************************
 *****************************************************************************/
 long CreateBillShareMem(FILELIST* pSFileList, char* pShareMem);
+long test();
 
 #endif
 
