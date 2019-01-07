@@ -1,0 +1,1 @@
+#define ABS abs()
