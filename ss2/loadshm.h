@@ -77,6 +77,7 @@ long DetachFssShm(void);
 void foo(char* in_char){
    char temp[109] ;
    ExitToAgent(temp, in_char);
+   ExitToAgent(temp, in_char);
 }
 
 #endif
