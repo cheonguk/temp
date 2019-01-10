@@ -19,7 +19,7 @@ long ReadCntSetBatch(char* pDictShm,
                           long  lDictCount,
                           char* shs_key,
                           char* sval,
-                          char* sprompt);
-
+                          char* sprompttt);
+// add commont
 #endif
 
