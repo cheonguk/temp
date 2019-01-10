@@ -1,0 +1,1 @@
+#define WWW 'www'
