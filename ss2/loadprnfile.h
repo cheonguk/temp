@@ -19,7 +19,7 @@ typedef struct tagBILLCFG{
 
 typedef struct tagFILELIST
 {
-    char        sTransCode[6 + 1];
+    char        sTransCode[6 + 2];
     char        sForm[MAX_FORM_LEN];
     long        lLineOffset;
     BILLCFG*    pSBillCfg;
