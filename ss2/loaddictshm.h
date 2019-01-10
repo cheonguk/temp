@@ -18,8 +18,6 @@ long CreateDictShm(long lCount, char** pResult, char* pShm);
 long ReadCntSetBatch(char* pDictShm,
                           long  lDictCount,
                           char* shs_key,
-                          char* sval,
                           char* sprompt);
 
 #endif
-
