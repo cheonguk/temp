@@ -9,5 +9,6 @@ int ReadCntSetBatch(char *ps);
 
 int ReadCntSetBatch2(char *ps);
 add zzzzzzzzzzzzzzzz
+add cn
 #endif
 
